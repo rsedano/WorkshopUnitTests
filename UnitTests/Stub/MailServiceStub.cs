@@ -7,7 +7,7 @@
             get; set;
         }
 
-        public string sendConfirmationMessage(string message)
+        public string sendConfirmationMessage(string emailTo, string message)
         {
             messageSent = $"Message successfully sent for class {message}";
 

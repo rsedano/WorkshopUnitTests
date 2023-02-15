@@ -9,17 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="coverlet.collector" Version="3.1.2">
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="NSubstitute" Version="4.4.0" />
+    <PackageReference Include="NSubstitute" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +32,8 @@
     <None Remove="Stub\" />
     <None Remove="Mock\" />
     <None Remove="NSubstitute" />
+    <None Remove="Spy\" />
+    <None Remove="Coverage\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TDD\" />
@@ -39,5 +41,7 @@
     <Folder Include="Fake\" />
     <Folder Include="Stub\" />
     <Folder Include="Mock\" />
+    <Folder Include="Spy\" />
+    <Folder Include="Coverage\" />
   </ItemGroup>
 </Project>

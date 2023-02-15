@@ -6,7 +6,7 @@
 		public void shouldAddNewStudentToRepository()
 		{
 			//Arrange
-			var testStudent = new Student("Donald", "Duck", age: 30);
+			var testStudent = new Student("Donald", "Duck", age: 30, "donal@duck.com", "someone@email.com");
 			var fakeStudentRepository = new FakeStudentRepository();
 
 			//Act

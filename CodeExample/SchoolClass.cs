@@ -1,9 +1,12 @@
 ﻿using System;
+using CodeExample.Interfaces;
+
 namespace CodeExample
 {
-	public class SchoolClass
+	public class SchoolClass: ISchoolClass
 	{
-        List<Student> students;
+        readonly List<Student> students;
+        readonly List<Teacher> teachers = new List<Teacher>();
 
         public string name { get; set; }
 
@@ -11,7 +14,8 @@ namespace CodeExample
 		{
 			this.name = name;
 			this.students = students;
-		}
+        }
+
         public void addStudentToSchoolClass(Student student)
         {
 			students.Add(student);
@@ -21,6 +25,16 @@ namespace CodeExample
 		{
 			return students.Count;
 		}
+
+        public void addTeacherToSchoolClass(Teacher teacher)
+        {
+            teachers.Add(teacher);
+        }
+
+        public int numberOfTeachers()
+        {
+            return students.Count;
+        }
     }
 }
 

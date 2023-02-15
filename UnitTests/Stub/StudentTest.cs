@@ -7,7 +7,7 @@
 		{
 			//Arrange
 			var mailServiceStub = new MailServiceStub();
-			var student = new Student("Darth","Sponge", 30);
+			var student = new Student("Darth","Vader", 30, "darth.vader@darkside.sw", "shmi.skywalker@tattoine.sw");
 			var schoolClass = new SchoolClass("DarkSideClass", new List<Student> { student });
 
 			var expectedMessage = "Message successfully sent for class DarkSideClass";

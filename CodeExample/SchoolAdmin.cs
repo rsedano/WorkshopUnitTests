@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Net.NetworkInformation;
+using CodeExample.Interfaces;
 
 namespace CodeExample
 {
@@ -16,7 +16,7 @@ namespace CodeExample
             this.building = building;
         }
 
-        public void CloseElementsSchoolDueToAFire(List<string> elementsToClose)
+        public virtual void CloseElementsSchoolDueToAFire(List<string> elementsToClose)
         {
             foreach(var elementToClose in elementsToClose)
             {
@@ -24,7 +24,7 @@ namespace CodeExample
             }
         }
 
-        public elementStatus CloseElementSchoolDueToAFire(string elementToClose)
+        public virtual elementStatus CloseElementSchoolDueToAFire(string elementToClose)
         {
             // close the element with some integration
             try

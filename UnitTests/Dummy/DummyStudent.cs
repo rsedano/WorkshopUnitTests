@@ -2,7 +2,7 @@
 {
 	public class DummyStudent: Student
 	{
-		public DummyStudent( ): base("", "", 0)
+		public DummyStudent( ): base("", "", 0, "", "")
 		{
 
 		}

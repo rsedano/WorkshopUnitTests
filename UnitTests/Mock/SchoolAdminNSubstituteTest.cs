@@ -1,6 +1,4 @@
-﻿using System;
-using CodeExample;
-using NSubstitute;
+﻿using NSubstitute;
 
 namespace UnitTests.Mock
 {

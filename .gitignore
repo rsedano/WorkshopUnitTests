@@ -9,6 +9,7 @@ coverage*.info
 coverage
 .sonarqube
 SonarQube.xml
+scanner.sh
 
 # Visual Studio Code
 .vscode

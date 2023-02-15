@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CodeExample
+namespace CodeExample.Interfaces
 {
 	public interface IStudentRepository
 	{
