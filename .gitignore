@@ -1,2 +1,38 @@
+project.lock.json
 coveragereport
 .DS_Store
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage.xml
+coverage.*.xml
+coverage*.info
+coverage
+.sonarqube
+SonarQube.xml
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+UnitTest/TestResults
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+.vs/

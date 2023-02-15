@@ -23,7 +23,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WorkshopUnitTests" expanded="True">
+          <Node name="WorkshopUnitTests" expanded="True" selected="True">
             <Node name="CodeExample" expanded="True" />
             <Node name="UnitTests" expanded="True">
               <Node name="Dummy" expanded="True" />
