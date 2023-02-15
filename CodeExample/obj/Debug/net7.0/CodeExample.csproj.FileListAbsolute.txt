@@ -1,0 +1,12 @@
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/bin/Debug/net7.0/CodeExample.deps.json
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/bin/Debug/net7.0/CodeExample.dll
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/bin/Debug/net7.0/CodeExample.pdb
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.csproj.AssemblyReference.cache
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.AssemblyInfoInputs.cache
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.AssemblyInfo.cs
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.csproj.CoreCompileInputs.cache
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.dll
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/refint/CodeExample.dll
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/CodeExample.pdb
+/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/obj/Debug/net7.0/ref/CodeExample.dll
