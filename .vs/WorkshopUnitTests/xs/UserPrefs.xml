@@ -1,29 +1,39 @@
 ﻿<Properties StartupConfiguration="{66D0A5F7-28EC-4616-BAC5-9F650A9D444C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodeExample/MailServiceHotSpot.cs">
+  <MonoDevelop.Ide.ItemProperties.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/UnitTests/Spy/SchoolAdminSpyTest.cs" relfile="UnitTests/Spy/SchoolAdminSpyTest.cs" line="15" column="1" />
+      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/SchoolAdmin.cs" relfile="CodeExample/SchoolAdmin.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/Coverage/GradeCalculationTest.cs">
     <Files>
-      <File FileName="UnitTests/Dummy/DummyStudent.cs" Line="5" Column="10" />
       <File FileName="UnitTests/Fake/FakeStudentRepository.cs" />
-      <File FileName="UnitTests/Fake/StudentRepositoryTest.cs" Line="9" Column="97" />
-      <File FileName="CodeExample/IStudentRepository.cs" Line="2" Column="33" />
-      <File FileName="CodeExample/Student.cs" Line="22" Column="15" />
-      <File FileName="CodeExample/SchoolClass.cs" Line="24" Column="32" />
-      <File FileName="UnitTests/Stub/StudentTest.cs" Line="16" Column="27" />
-      <File FileName="UnitTests/Mock/SchoolAdminNSubstituteTest.cs" Line="65" Column="73" />
-      <File FileName="CodeExample/Calculator.cs" Line="1" Column="23" />
-      <File FileName="CodeExample/MailService.cs" Line="19" Column="35" />
-      <File FileName="UnitTests/Spy/StudentSpyTest.cs" Line="26" Column="82" />
-      <File FileName="CodeExample/ISchoolAdmin.cs" Line="2" Column="33" />
-      <File FileName="CodeExample/SchoolAdmin.cs" Line="1" Column="14" />
-      <File FileName="UnitTests/Mock/SchoolAdminMock.cs" Line="5" Column="42" />
-      <File FileName="UnitTests/Mock/SchoolAdminMockTest.cs" Line="24" Column="4" />
-      <File FileName="UnitTests/Dummy/ClassTest.cs" Line="13" Column="47" />
-      <File FileName="CodeExample/Interfaces/ISchoolClass.cs" Line="2" Column="22" />
-      <File FileName="CodeExample/Interfaces/ISchoolBuilding.cs" Line="2" Column="33" />
-      <File FileName="CodeExample/Teacher.cs" Line="9" Column="1" />
-      <File FileName="CodeExample/GradeCalculation.cs" Line="15" Column="28" />
-      <File FileName="UnitTests/Coverage/GradeCalculationTest.cs" Line="11" Column="29" />
-      <File FileName="UnitTests/TDD/CalculatorTests.cs" Line="1" Column="1" />
-      <File FileName="UnitTests/Integration/EmptyClass.cs" Line="15" Column="45" />
+      <File FileName="UnitTests/Fake/StudentRepositoryTest.cs" />
+      <File FileName="CodeExample/Student.cs" />
+      <File FileName="CodeExample/SchoolClass.cs" />
+      <File FileName="UnitTests/Stub/StudentTest.cs" />
+      <File FileName="UnitTests/Mock/SchoolAdminNSubstituteTest.cs" Line="58" Column="67" />
+      <File FileName="CodeExample/Calculator.cs" />
+      <File FileName="CodeExample/SchoolAdmin.cs" />
+      <File FileName="UnitTests/Mock/SchoolAdminMock.cs" />
+      <File FileName="UnitTests/Mock/SchoolAdminMockTest.cs" />
+      <File FileName="UnitTests/Dummy/ClassTest.cs" />
+      <File FileName="CodeExample/Interfaces/ISchoolClass.cs" />
+      <File FileName="CodeExample/Interfaces/ISchoolBuilding.cs" />
+      <File FileName="CodeExample/Teacher.cs" />
+      <File FileName="CodeExample/GradeCalculation.cs" />
+      <File FileName="UnitTests/Coverage/GradeCalculationTest.cs" Line="12" Column="1" />
+      <File FileName="UnitTests/TDD/CalculatorTests.cs" />
+      <File FileName="UnitTests/Integration/MailServiceHotSpotTest.cs" />
+      <File FileName="CodeExample/MailServiceHotSpot.cs" />
+      <File FileName="UnitTests/Spy/SchoolAdminSpyTest.cs" />
+      <File FileName="UnitTests/Stub/MailServiceStub.cs" />
+      <File FileName="CodeExample/Interfaces/IMailService.cs" />
+      <File FileName="UnitTests/Usings.cs" />
+      <File FileName="UnitTests/Dummy/DummyStudent.cs" />
+      <File FileName="CodeExample/Interfaces/IStudentRepository.cs" />
+      <File FileName="UnitTests/Mock/BaseMock.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,39 +43,32 @@
               <Node name="Interfaces" expanded="True" />
             </Node>
             <Node name="UnitTests" expanded="True">
-              <Node name="Integration" expanded="True">
-                <Node name="MailServiceHotSpotTest.cs" selected="True" />
+              <Node name="Coverage" expanded="True">
+                <Node name="GradeCalculationTest.cs" selected="True" />
               </Node>
+              <Node name="Dummy" expanded="True" />
+              <Node name="Fake" expanded="True" />
+              <Node name="Integration" expanded="True" />
+              <Node name="Mock" expanded="True" />
+              <Node name="Spy" expanded="True" />
+              <Node name="Stub" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>response</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="WorkshopUnitTests" expanded="True">
-            <Node name="UnitTests" expanded="True">
-              <Node name="UnitTests.Coverage" expanded="True">
-                <Node name="GradeCalculationTest" expanded="True" />
-              </Node>
-              <Node name="UnitTests.Integration" expanded="True">
-                <Node name="MailServiceHotSpotTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="WorkshopUnitTests" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/UnitTests/Integration/MailServiceHotSpotTest.cs" relfile="UnitTests/Integration/MailServiceHotSpotTest.cs" line="18" column="1" />
-      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/MailServiceHotSpot.cs" relfile="CodeExample/MailServiceHotSpot.cs" line="29" column="1" />
-      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/MailServiceHotSpot.cs" relfile="CodeExample/MailServiceHotSpot.cs" line="21" column="1" />
-      <Breakpoint file="/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/MailServiceHotSpot.cs" relfile="CodeExample/MailServiceHotSpot.cs" line="16" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
