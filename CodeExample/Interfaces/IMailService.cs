@@ -3,7 +3,8 @@ namespace CodeExample.Interfaces
 {
 	public interface IMailService
 	{
-		public string sendConfirmationMessage(string enailTo, string message);
-	}
+        public Task<HttpResponseMessage> sendConfirmationMessage(string emailAddress, string message);
+
+    }
 }
 

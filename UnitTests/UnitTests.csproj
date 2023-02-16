@@ -34,6 +34,7 @@
     <None Remove="NSubstitute" />
     <None Remove="Spy\" />
     <None Remove="Coverage\" />
+    <None Remove="Integration\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TDD\" />
@@ -43,5 +44,6 @@
     <Folder Include="Mock\" />
     <Folder Include="Spy\" />
     <Folder Include="Coverage\" />
+    <Folder Include="Integration\" />
   </ItemGroup>
 </Project>

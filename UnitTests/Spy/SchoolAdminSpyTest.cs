@@ -23,6 +23,7 @@ namespace UnitTests.Spy
             schoolAdmin.Received(1).CloseElementSchoolDueToAFire("LabWindow1");
             schoolAdmin.Received(1).CloseElementSchoolDueToAFire("LabWindow2");
             schoolAdmin.Received(1).CloseElementSchoolDueToAFire("LabWindow3");
+            schoolAdmin.Received(3).CloseElementSchoolDueToAFire(Arg.Any<string>());
         }
     }
 }

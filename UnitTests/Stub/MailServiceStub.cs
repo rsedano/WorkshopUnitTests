@@ -1,4 +1,6 @@
-﻿namespace UnitTests.Stub
+﻿using System.Net;
+
+namespace UnitTests.Stub
 {
 	public class MailServiceStub: IMailService
 	{
@@ -7,11 +9,11 @@
             get; set;
         }
 
-        public string sendConfirmationMessage(string emailTo, string message)
+        public async Task<HttpResponseMessage> sendConfirmationMessage(string emailAddress, string message)
         {
+            await Task.FromResult(0);
             messageSent = $"Message successfully sent for class {message}";
-
-            return messageSent;
+            return new HttpResponseMessage(HttpStatusCode.Accepted);
         }
     }
 }
