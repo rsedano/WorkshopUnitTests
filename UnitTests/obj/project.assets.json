@@ -5664,19 +5664,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/rodrigo.sedano/.nuget/packages/": {}
+    "/Users/sigurdblakkestad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/UnitTests/UnitTests.csproj",
+      "projectUniqueName": "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/UnitTests/UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/UnitTests/UnitTests.csproj",
-      "packagesPath": "/Users/rodrigo.sedano/.nuget/packages/",
-      "outputPath": "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/UnitTests/obj/",
+      "projectPath": "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/UnitTests/UnitTests.csproj",
+      "packagesPath": "/Users/sigurdblakkestad/.nuget/packages/",
+      "outputPath": "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/UnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rodrigo.sedano/.nuget/NuGet/NuGet.Config"
+        "/Users/sigurdblakkestad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5688,8 +5688,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/CodeExample.csproj": {
-              "projectPath": "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/CodeExample.csproj"
+            "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/CodeExample/CodeExample.csproj": {
+              "projectPath": "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/CodeExample/CodeExample.csproj"
             }
           }
         }
@@ -5745,7 +5745,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }

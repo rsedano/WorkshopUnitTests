@@ -7,5 +7,13 @@
 
 		}
 	}
+
+	public class DummyTeacher: Teacher
+	{
+		public DummyTeacher( ): base("", "")
+		{
+
+		}
+	}
 }
 

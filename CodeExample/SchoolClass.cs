@@ -10,10 +10,11 @@ namespace CodeExample
 
         public string name { get; set; }
 
-		public SchoolClass(string name, List<Student> students)
+		public SchoolClass(string name, List<Student> students, List<Teacher> teachers)
 		{
 			this.name = name;
 			this.students = students;
+            this.teachers = teachers;
         }
 
         public void addStudentToSchoolClass(Student student)
@@ -33,7 +34,7 @@ namespace CodeExample
 
         public int numberOfTeachers()
         {
-            return students.Count;
+            return teachers.Count;
         }
     }
 }

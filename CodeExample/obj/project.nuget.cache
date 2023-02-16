@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kToIA7UHWLT8+HRtCixYPyIAB6ctkCMk6MazSlmUIz13qXIMN3cxQfnKZafPcsEpx57udKg0xwoVN+i1+Zrfow==",
+  "dgSpecHash": "TIkBFmXItZK7SUOMJLbllBFtF1NTZiUow7uLR4kIP0Sm/lo3Y1A5kEAhCiaS0cazmRODGBm98F1mKMFRVBYeLw==",
   "success": true,
-  "projectFilePath": "/Users/rodrigo.sedano/Desktop/Repos/WorkshopUnitTests/CodeExample/CodeExample.csproj",
+  "projectFilePath": "/Users/sigurdblakkestad/Stacc/workshopUnitTest/WorkshopUnitTests/CodeExample/CodeExample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
