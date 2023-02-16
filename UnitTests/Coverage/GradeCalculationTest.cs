@@ -29,6 +29,7 @@ namespace UnitTests.Coverage
       //Assert
       Assert.Equal(expectedGrade, grade);
     }
+    [Fact]
     public void GetGradeC()
     {
       //Arrange
@@ -41,6 +42,7 @@ namespace UnitTests.Coverage
       //Assert
       Assert.Equal(expectedGrade, grade);
     }
+    [Fact]
     public void GetGradeD()
     {
       //Arrange
@@ -53,6 +55,7 @@ namespace UnitTests.Coverage
       //Assert
       Assert.Equal(expectedGrade, grade);
     }
+    [Fact]
     public void GetGradeF()
     {
       //Arrange
