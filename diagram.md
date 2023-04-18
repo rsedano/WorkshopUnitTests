@@ -1,16 +1,26 @@
-graph LR
-    subgraph "GitHub Repositories"
+```mermaid
+flowchart TD
+    Developer("Developers")
+        Developer --> CheckIn_Code
+        Developer --> CheckOut_Code
         CheckIn_Code --> Repo
-        CheckOut_Code <--> Repo
-        Repo <--> CheckOut_Code2
-    end
+        CheckOut_Code --> Repo
+    Repo("GitHub Repositories")
+        Repo --> CheckOut_Code2
+
     subgraph "GitHub Action Build Images"
     CheckOut_Code2 --> Build_Image
     Build_Image --> Push_Image
     Push_Image --> Snyk_Scan
     Snyk_Scan --> Kosli_Report
-    Kosli_Report --> Deploy_Environment
+    Kosli_Report --> Done_Image
     end
-    subgraph "Deployed Environment"
-        Deploy_Environment
+    subgraph "Deploy"
+        Done_Image --> Deploy_Environment
+    end    
+    subgraph "Deploy Environment"
+        Deploy_Environment --> Test
+        Deploy_Environment --> Prod
     end
+
+```
