@@ -1,27 +1,16 @@
-+-----------------+          +-------------------------+
-| GitHub          |          | Container Registry       |
-| Repositories    |          | (Docker Hub, AWS ECR,    |
-|                 |          |  Google Container Reg,   |
-|                 |          |  etc.)                   |
-+-----------------+          +-------------------------+
-        |                            |
-        |                            |
-        v                            v
-+-----------------+          +-------------------------+
-| Checkout Code   |          | Push Image to Registry   |
-|                 |          | (using Docker Build)     |
-+-----------------+          +-------------------------+
-        |                            |
-        |                            |
-        v                            v
-+-----------------+          +-------------------------+
-| Build Image     |          | Snyk and Kosli Scans      |
-| (using Dockerfile)|         | (or other security scans)|
-+-----------------+          +-------------------------+
-        |                            |
-        |                            |
-        v                            v
-+-----------------+          +-------------------------+
-| Deploy to       |          | Deployed Environment     |
-| Environment     |          | (Test, Prod, etc.)       |
-+-----------------+          +-------------------------+
+graph LR
+    subgraph "GitHub Repositories"
+        CheckIn_Code --> Repo
+        CheckOut_Code <--> Repo
+        Repo <--> CheckOut_Code2
+    end
+    subgraph "GitHub Action Build Images"
+    CheckOut_Code2 --> Build_Image
+    Build_Image --> Push_Image
+    Push_Image --> Snyk_Scan
+    Snyk_Scan --> Kosli_Report
+    Kosli_Report --> Deploy_Environment
+    end
+    subgraph "Deployed Environment"
+        Deploy_Environment
+    end
