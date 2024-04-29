@@ -7,7 +7,7 @@ namespace UnitTests.Coverage
 		public void GetGradeA()
 		{
 			//Arrange
-			int mark = 90;
+			int mark = 91;
 			string expectedGrade = "A";
 
 			//Act
