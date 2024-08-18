@@ -13,7 +13,7 @@ develop-branch: ## Create a new branch for development
 	else \
 		echo "Local branch 'develop' does not exist."; \
 		echo "Switching to 'main' branch..."; \
-		git switch main; \		
+		git switch main; \
 	fi
 	@if git ls-remote --heads origin develop >/dev/null 2>&1; then \
 		echo "Deleting remote branch 'develop'..."; \
@@ -27,8 +27,8 @@ develop-branch: ## Create a new branch for development
 		git switch -c develop origin/main; \
 		git push origin -u develop; \
 		echo "Branch 'develop' created and pushed to remote."; \
-		echo "Notifiy to your collegues in Slack channel #team-cf."; \
-		echo "They should delete their develop brahcn and fetch the new one."; \
+		echo "Notify your colleagues in Slack channel #team-cf."; \
+		echo "They should delete their develop branch and fetch the new one."; \
 	else \
 		echo "Remote 'origin/main' does not exist. Cannot create 'develop' branch."; \
 	fi
