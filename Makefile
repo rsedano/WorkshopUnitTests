@@ -15,6 +15,9 @@ develop-branch: ## Create a new branch for development
 		fi; \
 	else \
 		echo "Local branch 'develop' does not exist."; \
+		echo "Switching to 'main' branch..."; \
+		git switch main; \
+		git pull; \
 	fi
 	@if git ls-remote --heads origin develop >/dev/null 2>&1; then \
 		echo "Deleting remote branch 'develop'..."; \
@@ -24,9 +27,6 @@ develop-branch: ## Create a new branch for development
 		echo "Remote branch 'develop' does not exist."; \
 	fi
 	@if git ls-remote --heads origin main >/dev/null 2>&1; then \
-		echo "Switching to 'main' branch..."; \
-		git switch main; \
-		git pull; \
 		echo "Creating 'develop' branch from main..."; \
 		git switch -c develop origin/main; \
 		git push origin -u develop; \
