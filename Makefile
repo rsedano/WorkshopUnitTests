@@ -1,8 +1,8 @@
 develop-branch: ## Create a new branch for development
-	git switch main; \
-	git pull; \		
 	@if git rev-parse --verify develop >/dev/null 2>&1; then \
 		if [ `git branch --show-current` != "develop" ]; then \
+			git switch main; \
+			git pull; \		
 			git branch -d develop --force; \
 			echo "Local branch 'develop' deleted."; \
 		else \
