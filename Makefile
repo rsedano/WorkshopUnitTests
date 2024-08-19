@@ -2,7 +2,7 @@ develop-branch: ## Create a new branch for development
 	@if git rev-parse --verify develop >/dev/null 2>&1; then \
 		if [ `git branch --show-current` != "develop" ]; then \
 			git switch main; \
-			git pull; \		
+			git pull; \
 			git branch -d develop --force; \
 			echo "Local branch 'develop' deleted."; \
 		else \
@@ -26,7 +26,7 @@ develop-branch: ## Create a new branch for development
 	@if git ls-remote --heads origin main >/dev/null 2>&1; then \
 		echo "Switching to 'main' branch..."; \
 		git switch main; \
-		git pull; \		
+		git pull; \	
 		echo "Creating 'develop' branch from main..."; \
 		git switch -c develop origin/main; \
 		git push origin -u develop; \
