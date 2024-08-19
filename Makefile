@@ -19,7 +19,7 @@ develop-branch: ## Create a new branch for development
 		git switch main; \
 		git pull; \
 	fi
-	@if git ls-remote --heads origin develop >/dev/null 2>&1; then \
+	@if [ -n "$$(git ls-remote --heads origin develop | awk '{print $$1}')" ]; then \
 		echo "Deleting remote branch 'develop'..."; \
 		git push origin --delete develop; \
 		echo "Remote branch 'develop' deleted."; \
