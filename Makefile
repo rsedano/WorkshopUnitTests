@@ -26,7 +26,7 @@ develop-branch: ## Create a new branch for development
 	else \
 		echo "Remote branch 'develop' does not exist."; \
 	fi
-	@if git ls-remote --heads origin main >/dev/null 2>&1; then \
+	@if [ -n "$$(git ls-remote --heads origin main | awk '{print $$1}')" ]; then \
 		echo "Creating 'develop' branch from main..."; \
 		git switch -c develop origin/main; \
 		git push origin -u develop; \
