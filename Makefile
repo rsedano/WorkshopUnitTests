@@ -1,4 +1,6 @@
 develop-branch: ## Create a new branch for development
+	git switch main; \
+	git pull; \		
 	@if git rev-parse --verify develop >/dev/null 2>&1; then \
 		if [ `git branch --show-current` != "develop" ]; then \
 			git branch -d develop --force; \
@@ -7,13 +9,12 @@ develop-branch: ## Create a new branch for development
 			echo "Cannot delete 'develop' branch because you are currently on it."; \
 			echo "Switching to 'main' branch..."; \
 			git switch main; \
+			git pull; \
 			git branch -d develop --force; \
 			echo "Local branch 'develop' deleted."; \
 		fi; \
 	else \
 		echo "Local branch 'develop' does not exist."; \
-		echo "Switching to 'main' branch..."; \
-		git switch main; \
 	fi
 	@if git ls-remote --heads origin develop >/dev/null 2>&1; then \
 		echo "Deleting remote branch 'develop'..."; \
@@ -23,6 +24,9 @@ develop-branch: ## Create a new branch for development
 		echo "Remote branch 'develop' does not exist."; \
 	fi
 	@if git ls-remote --heads origin main >/dev/null 2>&1; then \
+		echo "Switching to 'main' branch..."; \
+		git switch main; \
+		git pull; \		
 		echo "Creating 'develop' branch from main..."; \
 		git switch -c develop origin/main; \
 		git push origin -u develop; \
